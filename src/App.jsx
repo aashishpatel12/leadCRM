@@ -12,7 +12,7 @@ import TestimonialSection from './components/Testimonials/Testimonials';
 import LinkedInSalesPage from './components/LinkedInSalesPage/LinkedInSalesPage';
 import LeadCRM from './components/LeadCrm/LeadCrm';
 import Footer from './components/Footer/Footer';
-import LeadManagement from './components/LeadManagemant/LeadManagemat';
+import LeadManagement from './components/LeadManagement/LeadManagement';
 
 
 function App() {
