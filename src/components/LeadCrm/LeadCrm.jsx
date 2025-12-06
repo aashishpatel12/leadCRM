@@ -1,7 +1,7 @@
 
 
 import React from 'react';
-import './LeadCRM.css';
+import './LeadCrm.css';
 import crmImage from "../../assets/leadcrm-supported-1536x636.png";
 import AppButton from '../AppButton/AppButton';
 import { FaArrowRight } from "react-icons/fa6";
