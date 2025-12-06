@@ -1,0 +1,100 @@
+
+.marquee-section {
+    background-color: #ffffff;
+    padding: 40px 20px;
+    overflow: hidden;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    user-select: none;
+  }
+  
+  .marquee-wrapper {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .marquee-content {
+    display: flex;
+    gap: 60px;
+    padding: 20px 0;
+    animation: scroll-left 30s linear infinite;
+    white-space: nowrap;
+  }
+  
+  .marquee-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #555;
+   
+    min-width: fit-content;
+  }
+  
+  .marquee-item:hover {
+   
+    transform: translateY(-2px);
+    transition: all 0.3s ease;
+  }
+  
+ 
+  .size-badge {
+    background: linear-gradient(135deg, #7b61ff, #b19eff);
+    color: white !important;
+    font-weight: 700;
+    font-size: 1rem;
+    border: none !important;
+  }
+
+  .icon {
+    font-size: 1.6rem;
+  }
+  
+  .user-icon::before    { content: "Person Icon"; color: #7b61ff; }
+  .hand-icon::before    { content: "Hand Pointer Icon"; color: #ff6b6b; }
+  .dots-icon::before    { content: "Three Dots Icon"; color: #4ecdc4; }
+  .phone-icon::before   { content: "Mobile Phone Icon"; color: #1a9fff; }
+  
+
+  @keyframes scroll-left {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+
+  .marquee-wrapper:hover .marquee-content {
+    animation-play-state: paused;
+  }
+  
+
+  @media (max-width: 768px) {
+    .marquee-content {
+      gap: 30px;
+      animation-duration: 24s; 
+    }
+    
+    .marquee-item {
+      font-size: 1rem;
+      padding: 10px 18px;
+      gap: 10px;
+    }
+    
+    .icon {
+      font-size: 1.4rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .marquee-content {
+      animation-duration: 20s;
+    }
+    
+    .marquee-item {
+      font-size: 0.9rem;
+      padding: 8px 16px;
+    }
+  }

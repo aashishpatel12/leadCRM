@@ -1,0 +1,195 @@
+
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+    min-height: 80vh;
+    background-image: url("../../assets/grid blocks 1.png");
+    background-attachment: fixed;
+    padding: 30px 20px 14px;
+    margin-top: 2rem;
+  }
+  
+  .hero-banner {
+    background-color: #f0f0f0;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  
+  .banner-text {
+    color: #000000;
+  }
+  
+  .hero-headline {
+    font-size: 58px;
+    font-weight: bold;
+    margin: 0 0 20px;
+    line-height: 1.2;
+  }
+  .hero-headline span{
+    color: #2D96BC;
+  }
+  
+  .hero-subtext {
+    font-size: 19px;
+    color: #363636;
+    margin: 0 0 30px;
+    max-width: 800px;
+  }
+  
+  .hero-integrations {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: center;
+    padding: 18px 32px;
+    background: linear-gradient(90.37deg, #5ED3FF -12.35%, #6EC6FE 0.67%, #EB65F4 100.24%, #FD58F2 114.28%);
+    border-radius: 10px;
+  }
+  
+  .hero-integrations span {
+    margin-right: 10px;
+    font-size: 1rem;
+  }
+  
+  .integration-logo {
+    width: 40px;
+    height: 40px;
+    margin: 0 5px;
+    border-radius: 50%;
+    background-color: #dddddd; 
+  }
+  
+  .hero-ratings {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .rating-item {
+    margin: 0 10px;
+    font-size: 1rem;
+    color: chocolate;
+  }
+  
+  .hero-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+  }
+  
+  .chrome-store {
+    margin-right: 20px;
+    font-size: 1rem;
+  }
+  
+  .small-logo {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+  }
+  
+  .action-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .trial-btn {
+    background-color: #B3FC6A;
+    color: #000000;
+    padding: 19px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  .crome-store{
+    display: flex;
+    gap: 20px;
+   padding: 5px 10px;
+    background-color: black;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+  }
+  .crome-store .crome-sub p{
+     color: white;
+     margin: 0%;
+     padding: 0%;
+     display: flex;
+     align-items: start;
+     size: 7px;
+     padding: 0px
+  }
+  .crome-store img{
+    width: 32px;
+    height: 34px;
+    margin-right: 16px;
+  }
+  
+
+  @media (max-width: 768px) {
+    .hero-container {
+      padding: 80px 15px 40px;
+    }
+  
+    .hero-headline {
+      font-size: 2rem;
+    }
+  
+    .hero-subtext {
+      font-size: 0.9rem;
+    }
+  
+    .hero-integrations {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .hero-ratings {
+      flex-direction: column;
+    }
+  
+    .rating-item {
+      margin: 5px 0;
+    }
+  
+    .hero-footer {
+      flex-direction: column;
+    }
+  
+    .chrome-store {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .hero-headline {
+      font-size: 1.5rem;
+    }
+  
+    .hero-subtext {
+      font-size: 0.8rem;
+    }
+  
+    .integration-logo {
+      width: 30px;
+      height: 30px;
+    }
+  
+    .action-btn {
+      width: 100%;
+      font-size: 0.9rem;
+    }
+  }

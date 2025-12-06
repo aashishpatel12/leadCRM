@@ -1,0 +1,101 @@
+.hero {
+  background: #EAEFFA;
+  padding: 50px 20px;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+}
+
+.hero-top-text {
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 45px;
+  color: #090F4E;
+  text-align: left;
+  
+}
+.hero-box {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.banner-img {
+  width: 100%;
+  height: auto;
+}
+
+
+.cta-btn {
+  background: #9EE25A;
+  color: #000;
+  padding: 14px 28px;
+  border: none;
+  margin-top: 30px;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.cta-container{
+  display: flex;
+  justify-content: center;
+}
+
+.cta-btn:hover {
+  background: #8BD14A;
+}
+
+
+@media (max-width: 1024px) {
+  .hero {
+    padding: 50px 18px;
+  }
+
+  .hero-top-text {
+    font-size: 28px;
+    padding: 0 15px;
+  }
+
+  .cta-btn {
+    font-size: 17px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 40px 16px;
+  }
+
+  .hero-top-text {
+    font-size: 22px;
+    text-align: center;
+    padding: 0 10px;
+  }
+
+  .cta-btn {
+    font-size: 16px;
+    padding: 12px 20px;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .hero {
+    padding: 30px 12px;
+  }
+
+  .hero-top-text {
+    font-size: 20px;
+    padding: 0 8px;
+  }
+
+  .cta-btn {
+    width: 100%;
+  }
+}
