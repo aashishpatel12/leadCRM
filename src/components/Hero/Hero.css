@@ -11,7 +11,7 @@
     background-image: url("../../assets/grid blocks 1.png");
     background-attachment: fixed;
     padding: 30px 20px 14px;
-    margin-top: 2rem;
+    margin-top: 2rem !important;
   }
   
   .hero-banner {
@@ -20,6 +20,7 @@
     border-radius: 20px;
     font-size: 1rem;
     margin-bottom: 20px;
+    margin-top: 2.5rem;
   }
   
   .banner-text {
