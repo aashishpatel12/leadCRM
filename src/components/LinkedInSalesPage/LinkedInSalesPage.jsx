@@ -6,6 +6,7 @@ import "./LinkedInSalesPage.css"
 import img1 from "../../assets/Avatar Users@2x.png"
 import img2 from "../../assets/Frame 1171278339.png"
 import stepImg from "../../assets/CRM-Data-Enrichment-1536x948.webp"
+import logo from "../../assets/Group 1171274963.png"
 
 
 const LinkedInSalesPage = () => {
@@ -116,6 +117,7 @@ const LinkedInSalesPage = () => {
 
   return (
     <div className="sales-container">
+    <img src={logo} alt='logo' className='side-logo'/>
       <div className="header-section">
         <h1 className="main-title">Complete LinkedIn Sales Solutions</h1>
         <p className="subtitle">Everything you need for professional LinkedIn prospecting</p>

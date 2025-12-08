@@ -1,9 +1,10 @@
 
 .howitworks-section {
-    padding: 0px 5% 100px;
+    padding: 0px 5% 59px;
     background: #EAEFFA;
-    position: relative;
+
     overflow: hidden;
+    
   }
   
   .howitworks-container {
@@ -11,7 +12,9 @@
     margin: 0 auto;
     position: relative;
     z-index: 2;
+    margin-top: 2rem;
   }
+  
   
   .howitworks-title {
     font-size: 36px;
@@ -257,6 +260,9 @@
   @media (max-width: 1200px) {
     .steps-grid {
       grid-template-columns: 1fr 1fr;
+    }
+    .connecting-line{
+      display: none !important;
     }
   }
   

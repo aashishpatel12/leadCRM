@@ -1,9 +1,11 @@
-.hero {
+.hero-section {
   background: #EAEFFA;
   padding: 50px 20px;
-  font-family: "Inter", sans-serif;
+ margin-bottom: 3rem;
   text-align: center;
+  position: relative;
 }
+
 
 .hero-top-text {
   font-size: 36px;
@@ -23,6 +25,7 @@
   width: 100%;
   height: auto;
 }
+
 
 
 .cta-btn {

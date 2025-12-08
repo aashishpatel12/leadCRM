@@ -2,10 +2,16 @@
 .sales-container {
     color: #333;
     background-color: #f8f9fa;
-    padding: 20px;
-    margin-bottom: 4rem;
+    padding: 80px 20px 20px;
+    position: relative;
+   
+    
   }
-  
+  .side-logo{
+    position: absolute;
+    top: -24px;
+    left: 0px;
+  }
 
   .header-section {
     text-align: center;
@@ -58,6 +64,7 @@
        /* border-color: #3498db; */
        border: none;
        border-bottom: 2px solid;
+       outline: none;
   }
   
   .tab-icon {
@@ -605,6 +612,9 @@
   @media (max-width: 768px) {
     .tabs-container {
       flex-direction: column;
+    }
+    .content-grid{
+      grid-template-columns: 1fr;
     }
     
     .card-header {

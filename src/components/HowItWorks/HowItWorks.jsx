@@ -7,6 +7,7 @@ import img3 from "../../assets/Group 1171278237 (1).png"
 import img2 from "../../assets/Group 1171278236.png"
 import img1 from "../../assets/Group 2147224140.png"
 import AppButton from '../AppButton/AppButton';
+// import ball from "../../assets/Ball.png";
 
 const HowItWorks = () => {
   return (
@@ -81,6 +82,7 @@ const HowItWorks = () => {
 
       
       </div>
+      {/* <img src={ball} className="decorative-circle"/> */}
     </section>
   );
 };

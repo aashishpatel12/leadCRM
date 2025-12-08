@@ -4,11 +4,12 @@ import banerimg from "../../assets/Product hunt banner image.png";
 import { FaArrowRightLong } from "react-icons/fa6";
 import AppButton from "../AppButton/AppButton";
 
+
 export default function LeadManagement() {
   return (
-    <section className="hero">
-
-      
+    <section className="hero-section">
+       
+     
       <div className="hero-top-text">
         Join Thousands of Professionals Using LeadCRM
       </div>
@@ -22,6 +23,8 @@ export default function LeadManagement() {
      
       <AppButton text="Get Started Today" icon={<FaArrowRightLong />} className="cta-btn"/>
       </div>
+     
+      
     </section>
   );
 }

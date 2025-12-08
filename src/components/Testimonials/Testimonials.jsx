@@ -3,7 +3,7 @@ import "./TestimonialSection.css";
 import img1 from "../../assets/Avatar Users@2x.png";
 import img2 from "../../assets/Avatar Users.png";
 import img3 from "../../assets/Avatar Users@2x.png";
-import ball from "../../assets/Ball.png";
+
 import { FaStar } from "react-icons/fa6";
 import { CiLocationArrow1 } from "react-icons/ci";
 const TestimonialSection = () => {
@@ -98,8 +98,7 @@ const TestimonialSection = () => {
 
   return (
     <div className="testimonial-container">
-      <div className="decorative-circle"></div>
-      {/* <img src={ball} className="decorative-circle"/> */}
+     
 
       <div className="testimonial-header">
         <h2>What people are saying about LeadCRM</h2>

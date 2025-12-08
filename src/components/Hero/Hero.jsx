@@ -5,8 +5,10 @@ import './Hero.css';
 import logo1 from "../../assets/Group 1171278189.png"
 import logo2 from "../../assets/Group 1171278188.png"
 import logo3 from "../../assets/Salesforce Integration.png"
+import line from "../../assets/line 1.png"
 import crome from "../../assets/Group 1000004893.png"
 import { FaStar } from "react-icons/fa6";
+
 
 const Hero = () => {
   return (
@@ -16,7 +18,7 @@ const Hero = () => {
       </div>
       <h1 className="hero-headline">
         LinkedIn CRM Integration<br />
-        Capture, Sync and Enrich in <span>Both Ways</span>
+        Capture, Sync and Enrich in <span className='headline-two'><span>Both Ways</span><img src={line}/></span>
       </h1>
       <p className="hero-subtext">
         Automatically sync LinkedIn prospects to your CRM and overlay existing CRM contacts on<br />

@@ -6,14 +6,16 @@
     justify-content: center;
     text-align: center;
     background-color: #ffffff;
-    font-family: Arial, sans-serif;
-    min-height: 80vh;
     background-image: url("../../assets/grid blocks 1.png");
     background-attachment: fixed;
-    padding: 30px 20px 14px;
+    padding: 70px 20px;
     margin-top: 2rem !important;
+   
   }
-  
+  .headline-two{
+    display: inline-grid;
+    gap: 5px;
+  }
   .hero-banner {
     background-color: #f0f0f0;
     padding: 5px 10px;
@@ -32,6 +34,7 @@
     font-weight: bold;
     margin: 0 0 20px;
     line-height: 1.2;
+    color: #121212;
   }
   .hero-headline span{
     color: #2D96BC;
@@ -173,12 +176,16 @@
       margin-right: 0;
       margin-bottom: 10px;
     }
+    .headline-two img{
+      width: 161px ;
+    }
   }
   
   @media (max-width: 480px) {
     .hero-headline {
       font-size: 1.5rem;
     }
+    
   
     .hero-subtext {
       font-size: 0.8rem;

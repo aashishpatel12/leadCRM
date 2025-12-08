@@ -2,6 +2,9 @@
   padding: 100px 20px;
   background: white;
   text-align: center;
+  position: relative;
+  margin-top: 2rem;
+ 
 }
 
 
@@ -31,6 +34,9 @@
   padding: 20px;
   margin-bottom: 60px;
 }
+.leadcrm-container{
+  margin-top: 2rem;
+}
 
 .leadcrm-image {
   width: 100%;
@@ -44,7 +50,20 @@
   transform: scale(1.02);
 }
 
-/* CTA Button - Exact Match to Original */
+.msg-log{
+  position: absolute;
+    top: 2%;
+    right: 23%;
+    animation: rotateIcon 8s linear infinite;
+}
+@keyframes rotateIcon {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 .cta-button {
   padding: 18px 48px;
   background: #10b981;
@@ -57,14 +76,19 @@
   box-shadow: 0 10px 30px rgba(16, 185, 129, 0.3);
   transition: all 0.3s ease;
 }
-
+.coloboratoion-logo{
+  position: absolute;
+    bottom: -35px;
+    right: 0px;
+    z-index: 9999;
+}
 .cta-button:hover {
   background: #059669;
   transform: translateY(-4px);
   box-shadow: 0 15px 35px rgba(16, 185, 129, 0.4);
 }
 
-/* Responsive Adjustments */
+
 @media (max-width: 1024px) {
   .leadcrm-header h1 {
     font-size: 32px;
@@ -77,6 +101,9 @@
 @media (max-width: 768px) {
   .leadcrm-section {
     padding: 80px 15px;
+  }
+  .coloboratoion-logo{
+    width: 81px;
   }
 
   .leadcrm-header h1 {
