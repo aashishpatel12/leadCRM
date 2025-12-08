@@ -71,7 +71,7 @@
   .mockup-img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: fill;
   }
   
   .pain-points,
@@ -87,7 +87,7 @@
     display: flex;
     gap: 16px;
     margin-bottom: 28px;
-    align-items: flex-start;
+    align-items: center;
   }
   
   .pain-points .icon {
@@ -200,5 +200,6 @@
   
     .save-hour {
       height: 4rem;
+      display: none !important;
     }
   }

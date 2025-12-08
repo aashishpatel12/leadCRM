@@ -1,7 +1,7 @@
 
   
   .footer {
-    background: linear-gradient(277.75deg, rgba(1, 178, 216, 0.22) 0%, rgba(1, 178, 216, 0.07) 77%);
+    background: linear-gradient(277.75deg, rgba(1, 178, 216, 0.22) 0%, rgba(1, 178, 216, 0.07) 77%) !important;
     
     padding: 42px 20px 20px;
     
@@ -49,7 +49,7 @@
   }
   
   .brand-description {
-    color: #333;
+    color: #000000 !important;
     font-size: 14px;
     line-height: 1.6;
     max-width: 300px;
@@ -92,9 +92,9 @@
   }
   
   .footer-heading {
-    color: #1a1a1a;
-    font-size: 18px;
-    font-weight: 600;
+    color: #090F4E !important;
+    font-size: 20px;
+    font-weight: 700;
     margin-bottom: 5px;
   }
   
@@ -107,7 +107,7 @@
   }
   
   .footer-link {
-    color: #333;
+    color: #000000 !important;
     text-decoration: none;
     font-size: 14px;
     transition: color 0.2s;
